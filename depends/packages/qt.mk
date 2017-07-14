@@ -1,6 +1,6 @@
 PACKAGE=qt
 $(package)_version=5.2.1
-$(package)_download_path=https://download.qt.io/archive/qt/5.2/5.2.1/single/qt-everywhere-opensource-src-5.2.1.tar.gz
+$(package)_download_path=https://download.qt.io/archive/qt/5.2/5.2.1/single/
 $(package)_file_name=$(package)-everywhere-opensource-src-$($(package)_version).tar.gz
 $(package)_dependencies=openssl
 $(package)_linux_dependencies=freetype fontconfig dbus libxcb libX11 xproto libXext
